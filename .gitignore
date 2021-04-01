@@ -1,0 +1,8 @@
+# Folder with massive files
+bin/Cleaned/*
+bin/Dictionary/*
+bin/Dataset/*
+bin/Dictionary/*
+bin/Download/*
+
+.vscode
