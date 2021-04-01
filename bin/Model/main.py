@@ -1,16 +1,25 @@
 #!/usr/bin/env python3
-"""
-Module Docstring
+from package.Classification import Classification
+
+"""Machine Learning Implementation
+
+This module will implement machine learning method base on
+csv file in Dataset folder.
 """
 
-__author__ = "Your Name"
+__author__ = "Muhammad Ghazi Muharam"
 __version__ = "0.1.0"
 __license__ = "MIT"
 
 
 def main():
     """ Main entry point of the app """
-    print("hello world")
+    model = Classification("../Dataset/data-0.4.csv")
+    model.svm()
+    model.GradientBoosting()
+    model.KNeighbors(3)
+    model.KNeighbors(5)
+    model.KNeighbors(7)
 
 
 if __name__ == "__main__":
