@@ -5,4 +5,5 @@ bin/Dataset/*
 bin/Dictionary/*
 bin/Download/*
 
+# Vscode setting folder
 .vscode
